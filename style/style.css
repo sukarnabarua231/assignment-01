@@ -36,3 +36,19 @@ nav{
 
     padding: auto;
 }
+/* mainstyle */
+.section-02{
+    border: 2px solid brown;
+    max-width: 1140px;
+    max-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0 auto;
+    
+}
+.section-01-img{
+    width: 400px;
+    height: 310px;
+    border-radius: 25px;
+    position: relative;
+}
