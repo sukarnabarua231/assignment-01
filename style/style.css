@@ -142,7 +142,6 @@ nav{
 
     /* .section-06 style */
     .section-06{
-        border: 2px solid black;
         max-width: 1140px;
         max-height: 630px;
         margin: 80px auto 0 auto;
@@ -153,8 +152,52 @@ nav{
 
     .section-06 label{
         display: block;
+        margin-top: 10px;
     }
     .section-06 p{
         font-weight: bold;
         font-size: 97px;
     }
+    .section-06 input{
+        width: 480px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+       padding-top: 5px;
+       padding-left: 10px;
+    }
+    .section-06 textarea{
+        height: 80px; 
+        width: 480px; 
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .section-07{
+         width: 100%;
+    max-width: 1440px;
+    max-height: 680px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+
+    }
+    .footer li{
+        list-style: none;
+        
+    }
+    .footer-list{
+        display: flex;
+        margin-left: 480px;
+        gap: 22px;
+        margin-bottom: 80px; 
+        margin-top: 20px;
+        color: #8987A1;
+    }
+    .section-07 p{
+        margin: 0;
+        padding: 0;
+    }
+    
