@@ -3,13 +3,16 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+    background-color: #ededfb;
+}
 /* header style */
 header{
-    border: 2px solid black;
     width: 100%;
     max-width: 1440px;
     max-height: 680px;
     padding-bottom: 70px;
+    margin: 0;
     background-image: url(../Assets/Hero-bg.png);
 }
 nav{
@@ -38,7 +41,6 @@ nav{
 }
 /* mainstyle */
 .section-02{
-    border: 2px solid brown;
     max-width: 1140px;
     max-height: 320px;
     display: flex;
@@ -54,23 +56,67 @@ nav{
 }
 /* section-03-style */
 .section-03{
-    border: 2px solid blue;
     max-width: 1140px;
-    max-height: 300px;
+    max-height: 250px;
     text-align: center;
     margin: 80px auto 0 auto;
-     padding: 0 auto;
+     padding: 30px 0;
+     border-radius: 10px;
      background-color:rgba(78, 71, 255, 0.08);
     
 }
 .section-03-parent-div{
     width: 850px;
-    height: 200px;
+    height: 150px;
  justify-content: space-around;
     display: flex;
     align-items: center;
     margin: 0 auto;
+    
     }
     .section-03-child-div p{
         padding: 0;
         margin: 0;
+    }
+    /* section-04-style */
+    .section-04{
+        max-width: 1140px;
+        max-height: 340px;
+        margin: 80px auto 0 auto;
+        text-align: center;
+    }
+    .card-container{
+        max-width: 1140px;
+        height: 240px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .card{
+        background-color: white;
+        width: 360px;
+        height: 180px;
+        padding: 24px 24px;
+        border-radius: 10px;
+
+    }
+    .card-comment{
+        text-align: left;
+    }
+    .card-image{
+        display: flex;
+    }
+    .card-review{
+        display: flex;
+        gap: 5px;
+    }
+    .card-review img{
+        border-radius: 50%;
+    }
+    .card-img-cmnt p{
+        padding: 0;
+        margin: 0;
+    }
+    .card-img-cmnt{
+        text-align: left;
+    }
