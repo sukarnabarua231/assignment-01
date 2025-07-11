@@ -193,6 +193,10 @@ nav{
     max-height: 680px;
     background-color: white;
     margin: 0 ;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
     }
 
