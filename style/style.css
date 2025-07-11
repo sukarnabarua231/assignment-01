@@ -187,18 +187,19 @@ nav{
         margin-top: 5px;
     }
 
-    .section-07{
-         border: 2px solid black;
+    footer{
          width: 100%;
     max-width: 1440px;
     max-height: 680px;
-    text-align: center;
     background-color: white;
-    border: none;
-    padding-bottom: 40px; 
-        padding-top: 8px;
-        margin: 0 ;
+    margin: 0 ;
 
+    }
+
+    .section-07{
+          text-align: center;
+          padding-bottom: 40px; 
+        padding-top: 8px;
     }
     .footer li{
         list-style: none;
