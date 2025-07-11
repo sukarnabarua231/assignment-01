@@ -119,4 +119,42 @@ nav{
     }
     .card-img-cmnt{
         text-align: left;
+    } 
+    /* section-05 style */
+    .section-05{
+        max-width: 1140px;
+        max-height: 680px;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        background-color: white;
+    }
+    .section-05 img{
+        width: 840px ;
+        height: 360px;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .section-05 p{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* .section-06 style */
+    .section-06{
+        border: 2px solid black;
+        max-width: 1140px;
+        max-height: 630px;
+        margin: 80px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-06 label{
+        display: block;
+    }
+    .section-06 p{
+        font-weight: bold;
+        font-size: 97px;
     }
